@@ -1,0 +1,29 @@
+@use "variables" as *;
+
+body,
+html {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #797979;
+  overflow: hidden;
+}
+
+.stagger-visualizer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 450px;
+}
+
+.stagger-visualizer div {
+  width: 64px;
+  height: 128px;
+  border: 1px solid #373535;
+  background-color: #f6f4f2;
+}

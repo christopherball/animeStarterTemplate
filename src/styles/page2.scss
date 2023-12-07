@@ -1,0 +1,24 @@
+@use "variables" as *;
+
+body {
+  background-color: $bgColor;
+  display: flex; // Required for vertical and horizontal centering
+  justify-content: center; // Required for vertical and horizontal centering
+  align-items: center; // Required for vertical and horizontal centering
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 50%; // Required for vertical and horizontal centering
+}
+
+.el {
+  position: absolute;
+  opacity: 1;
+  width: 2px;
+  height: 24vh;
+  margin-top: 24vh;
+  transform-origin: 50% 100%;
+  background: white;
+}

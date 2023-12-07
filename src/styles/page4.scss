@@ -1,0 +1,21 @@
+@use "variables" as *;
+
+body {
+  background-color: $bgColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.anim,
+.anim svg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.anim path {
+  stroke-width: 2;
+}
